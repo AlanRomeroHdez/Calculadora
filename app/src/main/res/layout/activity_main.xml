@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mx.itson.calculadora.MainActivity">
+    <TextView
+        android:id="@+id/resultado2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="Escribe un numero"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:inputType="number|numberDecimal"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="Escribe un numero"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:visibility="visible"
+         />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:textSize="0sp"
+        />
+
+
+    <Button
+        android:id="@+id/button_suma"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.5"
+        android:text="suma" />
+
+    <Button
+        android:id="@+id/button_resta"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="Resta" />
+
+    <Button
+        android:id="@+id/button_multiplicacion"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+
+        android:text="Multiplicación" />
+
+    <Button
+        android:id="@+id/button_division"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="División" />
+
+
+
+
+</LinearLayout>
